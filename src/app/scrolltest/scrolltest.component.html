@@ -1,0 +1,11 @@
+<div class="uselessSpace" id="targetscroll"><p>scrolltest works!</p></div>
+<p>end!</p>
+
+<!-- スクロールボタン -->
+<div class="scrolltop" [@showTopScroll]="isScroll ? 'open' : 'closed'">
+  <p class="buttons">
+    <a class="button is-primary" (click)="scrolltop()">
+      <span class="icon is-small"> <i class="fas fa-arrow-up"></i> </span>
+    </a>
+  </p>
+</div>
